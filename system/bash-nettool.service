@@ -1,0 +1,11 @@
+[Unit]
+Description=Bash NetTool Mini Server
+After=network.target
+
+[Service]
+ExecStart=/opt/bash-nettool/server/server.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

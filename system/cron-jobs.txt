@@ -1,0 +1,3 @@
+
+*/5 * * * * /opt/bash-nettool/modules/net-monitor.sh google.com >> /var/log/bash-nettool/ping.log
+
