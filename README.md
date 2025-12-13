@@ -21,26 +21,25 @@ network monitoring,and a simple TCP server. This tool is designed for Linux syst
 - ⏰ Cron Jobs: Automate scripts at defined intervals
 
 ---
+📂 Project File System
 
-## 📂 Project File System
+bash-nettool/
+├── README.md                 # Project description
+├── install.sh                # Installation script
+├── main.sh                   # Main menu script
+├── modules/                  # Bash modules for specific tasks
+│   ├── ip-info.sh            # Display network/IP info
+│   ├── subnet-calc.sh        # Subnet calculator
+│   ├── dns-lookup.sh         # DNS query tool
+│   └── net-monitor.sh        # Ping monitor and logging
+├── server/                   # Simple TCP server scripts
+│   ├── server.sh             # TCP server on port 8080
+│   └── server-log.sh         # Optional server logging
+├── system/                   # System integration files
+│   ├── bash-nettool.service  # systemd service file
+│   └── cron-jobs.txt         # Example cron jobs
+└── .git/                     # Git version control
 
-
-bash-nettool/                   # Root project directory
-├── README.md                   # Project description
-├── install.sh                  # Installation script
-├── main.sh                     # Main menu script
-├── modules/                    # Bash modules for specific tasks
-│   ├── ip-info.sh              # Display network/IP info
-│   ├── subnet-calc.sh          # Subnet calculator
-│   ├── dns-lookup.sh           # DNS query tool
-│   ├── net-monitor.sh          # Ping monitor and logging
-├── server/                     # Simple TCP server scripts
-│   ├── server.sh               # Start TCP server on port 8080
-│   ├── server-log.sh           # Server logging utilities (optional)
-├── system/                     # System-related files
-│   ├── bash-nettool.service    # systemd service file for auto-start
-│   └── cron-jobs.txt           # Example cron jobs (ping logging etc.)
-└── .git 
 
 * Make teh insatll script executable and run it :
   - chmod +x install.sh
@@ -147,4 +146,5 @@ SSH key can be reused for multiple projects on the same GitHub account.
 👨‍💻 Author
 
 Anish Dhakal – anishactitout@gmail.com
+
 
