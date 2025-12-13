@@ -22,22 +22,24 @@ network monitoring,and a simple TCP server. This tool is designed for Linux syst
 
 📂 Project File System
 
+```text
 bash-nettool/
 ├── README.md                 # Project description
 ├── install.sh                # Installation script
 ├── main.sh                   # Main menu script
-├── modules/                  # Bash modules
-│   ├── ip-info.sh            # IP information
-│   ├── subnet-calc.sh        # Subnet calculator
-│   ├── dns-lookup.sh         # DNS lookup
-│   └── net-monitor.sh        # Network monitor
-├── server/                   # TCP server
-│   ├── server.sh             # TCP server (port 8080)
-│   └── server-log.sh         # Optional logging
-├── system/                   # System integration
-│   ├── bash-nettool.service  # systemd service
-│   └── cron-jobs.txt         # Cron examples
-└── .git/                     # Git metadata
+├── modules/
+│   ├── ip-info.sh
+│   ├── subnet-calc.sh
+│   ├── dns-lookup.sh
+│   └── net-monitor.sh
+├── server/
+│   ├── server.sh
+│   └── server-log.sh
+├── system/
+│   ├── bash-nettool.service
+│   └── cron-jobs.txt
+└── .git/
+
 
 
 
@@ -146,6 +148,7 @@ SSH key can be reused for multiple projects on the same GitHub account.
 👨‍💻 Author
 
 Anish Dhakal – anishactitout@gmail.com
+
 
 
 
