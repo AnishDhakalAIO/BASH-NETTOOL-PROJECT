@@ -20,25 +20,25 @@ network monitoring,and a simple TCP server. This tool is designed for Linux syst
 - 🛠️ Service Integration: Run as a systemd service for continuous monitoring
 - ⏰ Cron Jobs: Automate scripts at defined intervals
 
----
 📂 Project File System
 
 bash-nettool/
 ├── README.md                 # Project description
 ├── install.sh                # Installation script
 ├── main.sh                   # Main menu script
-├── modules/                  # Bash modules for specific tasks
-│   ├── ip-info.sh            # Display network/IP info
+├── modules/                  # Bash modules
+│   ├── ip-info.sh            # IP information
 │   ├── subnet-calc.sh        # Subnet calculator
-│   ├── dns-lookup.sh         # DNS query tool
-│   └── net-monitor.sh        # Ping monitor and logging
-├── server/                   # Simple TCP server scripts
-│   ├── server.sh             # TCP server on port 8080
-│   └── server-log.sh         # Optional server logging
-├── system/                   # System integration files
-│   ├── bash-nettool.service  # systemd service file
-│   └── cron-jobs.txt         # Example cron jobs
-└── .git/                     # Git version control
+│   ├── dns-lookup.sh         # DNS lookup
+│   └── net-monitor.sh        # Network monitor
+├── server/                   # TCP server
+│   ├── server.sh             # TCP server (port 8080)
+│   └── server-log.sh         # Optional logging
+├── system/                   # System integration
+│   ├── bash-nettool.service  # systemd service
+│   └── cron-jobs.txt         # Cron examples
+└── .git/                     # Git metadata
+
 
 
 * Make teh insatll script executable and run it :
@@ -146,5 +146,6 @@ SSH key can be reused for multiple projects on the same GitHub account.
 👨‍💻 Author
 
 Anish Dhakal – anishactitout@gmail.com
+
 
 
